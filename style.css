@@ -8,7 +8,8 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -16,6 +17,7 @@ body {
     height: 85px;
     padding: 0;
     margin: 0;
+    
 }
 
 .navbar img {
@@ -45,6 +47,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    
 }
 
 .navbar ul{
@@ -53,6 +56,42 @@ ul {
 
 .navbar ul li {
     margin: 15px;
+}
+
+.hero {
+    background-color: #1F2937;
+    margin-top: 0;
+    padding: 0;
+    
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder ;
+}
+
+.hero p {
+    color: #E5E7EB;
+    font-size: 22px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    height: 40px;
+    font-weight: bold;
+}
+
+.hero img {
+    border-radius: 70%;
+    width: 600px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
 }
 
 
