@@ -67,7 +67,7 @@ ul {
 
 .hero h1 {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 55px;
     font-weight: bolder ;
 }
 
@@ -93,6 +93,42 @@ ul {
     align-items: center;
     padding: 15px;
 }
+
+.boxes {
+    height: 400px;
+    padding: 40px;
+    background-color:lightgrey;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.box  {
+    flex: 1;
+    max-width: 350px;
+    margin: 25px;
+    
+}
+
+.box img {
+    max-width: 250px;
+    height: 250px;
+    align-content: center;
+    box-shadow: 0 3px 5px rgba(58, 113, 216, 0.6);
+}
+
+.box h2 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
 
 
 
