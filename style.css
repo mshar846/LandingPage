@@ -95,9 +95,9 @@ ul {
 }
 
 .boxes {
-    height: 400px;
+    height: 350px;
     padding: 40px;
-    background-color:lightgrey;
+    
 }
 
 .boxes .container {
@@ -126,6 +126,55 @@ ul {
     font-size: 28px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgrey;
+}
+
+.quote p{
+    margin: 3px;
+    color: black;
+    font-weight:lighter;
+    font-style:italic;
+}
+
+.footer {
+
+}
+
+.footerbox {
+    padding: 35px;
+    width: 250px;
+    height: 150px;
+    color: #F9FAF8;
+    margin: 5px;
+    
+}
+
+.footer .container{
+    display: flex;
+    background-color: #0a51cc;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top:50px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    
+}
+.footer button {
+    background-color: #3882f6;
+    height: 40px;
+    font-weight: bold; 
+    color:  
+
 }
 
 
